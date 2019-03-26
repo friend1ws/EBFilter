@@ -1,8 +1,8 @@
 #! /usr/bin/env python
 
-import process_vcf
-import process_anno
-import get_eb_score
+from . import process_vcf
+from . import process_anno
+from . import get_eb_score
 import sys, os, subprocess, math, re, multiprocessing 
 import vcf, pysam, numpy
 

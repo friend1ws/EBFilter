@@ -1,8 +1,8 @@
 #! /usr/bin/env python
 
-import control_count
-import beta_binomial
-import utils
+from . import control_count
+from . import beta_binomial
+from . import utils
 import math, numpy
 
 def get_eb_score(var, F_target, F_control, base_qual_thres, controlFileNum):
